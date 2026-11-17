@@ -193,8 +193,8 @@ Bu, `src/pages/blog/` ve `src/pages/about.astro` dosyalarının taşınması dem
 
 ### Aşama 3 — Sayfalar
 - [x] `pages/blog/` → `pages/yazilar/`, `about.astro` → `hakkimda.astro` taşı; iç linkler ve RSS yollarını güncelle — **Frontend**
-- [ ] Ana sayfa: kısa tanıtım + son 3 yazı + "Tüm yazılar" bağlantısı — **Frontend**
-- [ ] Yazılar listesi: tarih, başlık, açıklama, etiketler; boş durum metni — **Frontend**
+- [x] Ana sayfa: kısa tanıtım + son 3 yazı + "Tüm yazılar" bağlantısı — **Frontend**
+- [x] Yazılar listesi: tarih, başlık, açıklama, etiketler; boş durum metni — **Frontend**
 - [ ] Hakkımda sayfası: `BaseLayout` + prose; meslek, yaş, ilgi alanları, ne yazdığım — **İçerik** (metin) / **Frontend** (sayfa)
 - [x] İletişim sayfası: mailto + GitHub + LinkedIn, kısa not — **Frontend**
 - [ ] Hero görsel politikası: gerçek görsel yoksa görsel alanı gösterilmez; `alt` zorunlu — **Frontend**
