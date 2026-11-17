@@ -14,6 +14,8 @@ const blog = defineCollection({
 			pubDate: z.coerce.date(),
 			updatedDate: z.coerce.date().optional(),
 			heroImage: z.optional(image()),
+			// İsteğe bağlı etiketler. URL adresi src/lib/tags.ts ile ASCII slug'a çevrilir.
+			tags: z.array(z.string()).optional(),
 		}),
 });
 
