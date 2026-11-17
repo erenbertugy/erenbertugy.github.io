@@ -183,8 +183,8 @@ Bu, `src/pages/blog/` ve `src/pages/about.astro` dosyalarının taşınması dem
 
 ### Aşama 2 — Tasarım sistemi ve koyu tema
 - [x] `global.css`: renk değişkenleri, açık/koyu palet, tipografi, boşluklar — **Frontend**
-- [ ] Tema düğmesi bileşeni + `localStorage` + sistem tercihi — **Frontend**
-- [ ] `<head>` içinde tema flash'ını önleyen küçük script — **Frontend**
+- [x] Tema düğmesi bileşeni + `localStorage` + sistem tercihi — **Frontend**
+- [x] `<head>` içinde tema flash'ını önleyen küçük script — **Frontend**
 - [x] Prose düzeni: başlıklar, link, kod, tablo, alıntı, liste — **Frontend**
 - [x] Odak halkaları, skip link, `prefers-reduced-motion` — **Frontend**
 - [ ] 360px / 768px / 1280px kontrolü ve düzeltmeler — **Frontend**

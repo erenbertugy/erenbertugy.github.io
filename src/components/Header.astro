@@ -1,6 +1,7 @@
 ---
 import { SITE_TITLE } from '../consts';
 import HeaderLink from './HeaderLink.astro';
+import ThemeToggle from './ThemeToggle.astro';
 ---
 
 <header>
@@ -12,6 +13,9 @@ import HeaderLink from './HeaderLink.astro';
 			<HeaderLink href="/about">Hakkımda</HeaderLink>
 			<HeaderLink href="/iletisim">İletişim</HeaderLink>
 		</nav>
+		<div class="theme-toggle-slot">
+			<ThemeToggle />
+		</div>
 	</div>
 </header>
 <style>
@@ -22,19 +26,23 @@ import HeaderLink from './HeaderLink.astro';
 		border-bottom: 1px solid var(--color-border);
 	}
 	.site-header {
-		display: flex;
-		flex-wrap: wrap;
+		display: grid;
+		grid-template-columns: 1fr auto;
+		grid-template-areas:
+			'title toggle'
+			'nav nav';
 		align-items: center;
-		justify-content: space-between;
-		gap: 0 1.5em;
+		gap: 0 var(--space-2);
 	}
 	.site-title {
+		grid-area: title;
 		padding: 1em 0;
 		color: rgb(var(--black));
 		font-weight: 700;
 		text-decoration: none;
 	}
 	nav {
+		grid-area: nav;
 		display: flex;
 		flex-wrap: wrap;
 		gap: 0 0.5em;
@@ -48,9 +56,17 @@ import HeaderLink from './HeaderLink.astro';
 	nav :global(a.active) {
 		border-bottom-color: var(--accent);
 	}
-	@media (max-width: 480px) {
+	/* Düğme JS yokken gizli olsa da yeri ayrılsın; düzen kaymasın. */
+	.theme-toggle-slot {
+		grid-area: toggle;
+		display: flex;
+		justify-content: flex-end;
+		min-inline-size: 2.75rem;
+	}
+	@media (min-width: 40rem) {
 		.site-header {
-			justify-content: center;
+			grid-template-columns: 1fr auto auto;
+			grid-template-areas: 'title nav toggle';
 		}
 	}
 </style>
