@@ -182,11 +182,11 @@ Bu, `src/pages/blog/` ve `src/pages/about.astro` dosyalarının taşınması dem
 **Aşama 1 sonu çalışır olmalı:** Dört sayfa açılır, menü doğru çalışır, şablonun İngilizce başlık/menü/footer metni kalmaz, `npm run build` hatasız biter.
 
 ### Aşama 2 — Tasarım sistemi ve koyu tema
-- [ ] `global.css`: renk değişkenleri, açık/koyu palet, tipografi, boşluklar — **Frontend**
+- [x] `global.css`: renk değişkenleri, açık/koyu palet, tipografi, boşluklar — **Frontend**
 - [ ] Tema düğmesi bileşeni + `localStorage` + sistem tercihi — **Frontend**
 - [ ] `<head>` içinde tema flash'ını önleyen küçük script — **Frontend**
-- [ ] Prose düzeni: başlıklar, link, kod, tablo, alıntı, liste — **Frontend**
-- [ ] Odak halkaları, skip link, `prefers-reduced-motion` — **Frontend**
+- [x] Prose düzeni: başlıklar, link, kod, tablo, alıntı, liste — **Frontend**
+- [x] Odak halkaları, skip link, `prefers-reduced-motion` — **Frontend**
 - [ ] 360px / 768px / 1280px kontrolü ve düzeltmeler — **Frontend**
 
 **Aşama sonu çalışır olmalı:** Tema düğmesi iki temada da çalışır ve yenilemede hatırlanır; ilk yüklemede renk sıçraması yok; 360px'te yatay kaydırma yok; metin ve linkler her iki temada okunur.

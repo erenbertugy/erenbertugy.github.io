@@ -27,20 +27,3 @@ const { title, description, image } = Astro.props;
 		<Footer />
 	</body>
 </html>
-
-<style>
-	.skip-link {
-		position: absolute;
-		top: 0;
-		left: 0;
-		z-index: 100;
-		padding: 0.75rem 1rem;
-		background: var(--accent);
-		color: #fff;
-		transform: translateY(-100%);
-	}
-
-	.skip-link:focus {
-		transform: translateY(0);
-	}
-</style>
