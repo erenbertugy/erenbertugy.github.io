@@ -7,7 +7,7 @@
 - Yazı dili: Türkçe
 
 ## Ben kimim
-- Kısa tanıtım (meslek, ilgi alanları, 3-5 madde): Bilgisayar Muhendisiyim. Devops alaninda calisiyorum. 25 yasinda tutkulu bir muhendisim, network konusuna vs ilgiliyom salla bir seyler.
+- Kısa tanıtım (meslek, ilgi alanları, 3-5 madde): Bilgisayar Muhendisiyim. Devops alaninda calisiyorum. tutkulu bir muhendisim, network konusuna vs ilgiliyom salla bir seyler.
 - Hangi konularda deneyimliyim: Devops alaninda tecrubem var
 
 ## Sitede olmasını istediklerim
