@@ -1,37 +1,76 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { SITE_AUTHOR, SITE_TITLE } from '../consts';
+import { SITE_AUTHOR, SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 ---
 
 <BaseLayout
 	title={`Hakkımda | ${SITE_TITLE}`}
-	description={`${SITE_AUTHOR} hakkında: mesleğim, ilgi alanlarım ve bu blogda neler yazdığım.`}
+	description={`${SITE_AUTHOR} hakkında: mesleğim, ilgi alanlarım ve bu blogda neler bulacağın.`}
 >
 	<div class="prose">
 		<h1>Hakkımda</h1>
 
+		<h2>Kısa bir giriş</h2>
+
 		<p>
-			Merhaba, ben {SITE_AUTHOR}. Bilgisayar mühendisiyim ve DevOps alanında çalışıyorum. 25
-			yaşındayım.
+			Merhaba, ben {SITE_AUTHOR}. Bilgisayar mühendisiyim, DevOps alanında çalışıyorum. 25
+			yaşındayım ve ağ konularına ilgi duyuyorum.
+		</p>
+
+		<h2>Ne yapıyorum</h2>
+
+		<p>
+			Günlük işimde çoğunlukla Linux terminalindeyim. Komutlar yazıyor, sistemlerle uğraşıyorum.
+			DevOps alanında tecrübem var.
 		</p>
 
 		<p>
-			DevOps tarafında tecrübe kazandım. Ağ konuları da ilgimi çekiyor. Bir verinin bir yerden bir
-			yere nasıl gittiğini okumak bana keyif veriyor.
+			Bu iş geniş bir alan: sunucular, otomasyon ve dağıtım süreçleri birbirine bağlı. İşin bu
+			tarafını seviyorum.
 		</p>
 
-		<h2>İlgi alanlarım</h2>
+		<h2>İlgi alanlarım ve şu an öğrendiklerim</h2>
+
+		<p>En çok sevdiğim konular belli:</p>
 
 		<ul>
-			<li>Ağ protokolleri ve ağ konuları</li>
-			<li>DevOps: sunucular, otomasyon ve dağıtım süreçleri</li>
+			<li>Network yapıları</li>
+			<li>DevOps mühendisliği</li>
+			<li>Sistem mühendisliği</li>
 		</ul>
 
-		<h2>Bu blogda ne yazıyorum?</h2>
+		<p>
+			Şu sıralar yapay zeka ve agent kullanımını öğreniyorum. Bu konu hızla değişiyor; öğrenecek
+			çok şey var.
+		</p>
+
+		<h2>Bu blogda neler bulacaksın</h2>
+
+		<p>Bu blog ağ ve DevOps odaklı. {SITE_DESCRIPTION}</p>
 
 		<p>
-			Ağ ve DevOps konularında Türkçe yazılar yazıyorum. Konuları sade ve anlaşılır anlatmaya
-			çalışıyorum. Yazılarımı <a href="/yazilar">Yazılar</a> sayfasında bulabilirsin.
+			Yazıların hepsi Türkçe. Teknolojiye ve ağa ilgi duyan herkes için yazıyorum; uzman olmak
+			gerekmiyor.
+		</p>
+
+		<p>
+			Konuları açıklayıcı ama boş olmayan cümlelerle anlatmaya çalışıyorum. Buna bir örnek: TCP
+			ve UDP'nin farkları. Yazıların tamamına <a href="/yazilar">Yazılar</a> sayfasından
+			ulaşabilirsin.
+		</p>
+
+		<h2>Neden bu blogu açtım</h2>
+
+		<p>
+			[DOLDUR] Bu blogu neden açtığımı buraya ekleyeceğim. Notlarımda bu sorunun cevabı yok.
+		</p>
+
+		<h2>Benimle iletişime geç</h2>
+
+		<p>
+			Soru sormak, öneri vermek ya da bir şeyi düzeltmek istersen
+			<a href="/iletisim">İletişim</a> sayfasından bana ulaşabilirsin. E-posta, GitHub ve LinkedIn
+			bağlantıları orada.
 		</p>
 	</div>
 </BaseLayout>
