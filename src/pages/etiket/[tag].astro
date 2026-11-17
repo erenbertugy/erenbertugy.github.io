@@ -1,0 +1,46 @@
+---
+import { type CollectionEntry, getCollection } from 'astro:content';
+import PostList from '../../components/PostList.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { SITE_TITLE } from '../../consts';
+import { collectTags, tagToSlug } from '../../lib/tags';
+
+interface Props {
+	tagName: string;
+	posts: CollectionEntry<'blog'>[];
+}
+
+export async function getStaticPaths() {
+	const posts = await getCollection('blog');
+	const tags = collectTags(posts);
+
+	return tags.map((tag) => ({
+		params: { tag: tag.slug },
+		props: {
+			tagName: tag.name,
+			posts: posts
+				.filter((post) => (post.data.tags ?? []).some((item) => tagToSlug(item) === tag.slug))
+				.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()),
+		},
+	}));
+}
+
+const { tagName, posts } = Astro.props;
+const description = `"${tagName}" etiketindeki yazılar.`;
+---
+
+<BaseLayout title={`${tagName} etiketi | ${SITE_TITLE}`} description={description}>
+	<h1>{tagName}</h1>
+	{posts.length > 0 ? <PostList posts={posts} /> : <p class="empty">Bu etikette henüz yazı yok.</p>}
+</BaseLayout>
+
+<style>
+	:global(main) {
+		width: min(calc(100% - var(--space-4)), var(--content-width-wide));
+		max-width: var(--content-width-wide);
+	}
+
+	.empty {
+		color: var(--color-muted);
+	}
+</style>
