@@ -192,7 +192,7 @@ Bu, `src/pages/blog/` ve `src/pages/about.astro` dosyalarının taşınması dem
 **Aşama sonu çalışır olmalı:** Tema düğmesi iki temada da çalışır ve yenilemede hatırlanır; ilk yüklemede renk sıçraması yok; 360px'te yatay kaydırma yok; metin ve linkler her iki temada okunur.
 
 ### Aşama 3 — Sayfalar
-- [ ] `pages/blog/` → `pages/yazilar/`, `about.astro` → `hakkimda.astro` taşı; iç linkler ve RSS yollarını güncelle — **Frontend**
+- [x] `pages/blog/` → `pages/yazilar/`, `about.astro` → `hakkimda.astro` taşı; iç linkler ve RSS yollarını güncelle — **Frontend**
 - [ ] Ana sayfa: kısa tanıtım + son 3 yazı + "Tüm yazılar" bağlantısı — **Frontend**
 - [ ] Yazılar listesi: tarih, başlık, açıklama, etiketler; boş durum metni — **Frontend**
 - [ ] Hakkımda sayfası: `BaseLayout` + prose; meslek, yaş, ilgi alanları, ne yazdığım — **İçerik** (metin) / **Frontend** (sayfa)
