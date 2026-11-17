@@ -1,5 +1,8 @@
-// Place any global data in this file.
-// You can import this data from anywhere in your site by using the `import` keyword.
+// Site genelindeki bilgiler. Tek kaynak: bileşenler ve sayfalar buradan okur.
 
-export const SITE_TITLE = 'Astro Blog';
-export const SITE_DESCRIPTION = 'Welcome to my website!';
+export const SITE_TITLE = 'Ağ Günlüğü';
+export const SITE_DESCRIPTION = 'Ağ ve DevOps konularında sade, anlaşılır yazılar.';
+export const SITE_AUTHOR = 'Eren Bertuğ Yıldırım';
+export const GITHUB_URL = 'https://github.com/erenbertugy';
+export const LINKEDIN_URL = 'https://www.linkedin.com/in/eren-bertu%C4%9F-y%C4%B1ld%C4%B1r%C4%B1m-422062206/';
+export const EMAIL = 'erenbertugy@gmail.com';

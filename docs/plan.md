@@ -167,14 +167,14 @@ Bu, `src/pages/blog/` ve `src/pages/about.astro` dosyalarının taşınması dem
 **Aşama sonu:** URL ve silme onayları alındı, dal hazır.
 
 ### Aşama 1A — Ortak iskelet
-- [ ] `BaseLayout.astro` ekle: head + header + main + footer, slot — **Frontend**
-- [ ] Tüm sayfaları `BaseLayout` kullanacak şekilde bağla — **Frontend**
-- [ ] `lang="tr"`, "İçeriğe geç" bağlantısı, Türkçe meta/OG alanları — **Frontend**
+- [x] `BaseLayout.astro` ekle: head + header + main + footer, slot — **Frontend**
+- [x] Tüm sayfaları `BaseLayout` kullanacak şekilde bağla — **Frontend**
+- [x] `lang="tr"`, "İçeriğe geç" bağlantısı, Türkçe meta/OG alanları — **Frontend**
 
 **Aşama 1A sonu çalışır olmalı:** Sayfalar ortak düzeni kullanır, sayfa kaynağında `lang="tr"` vardır, `npm run build` hatasız biter.
 
 ### Aşama 1B — Kimlik, menü ve footer
-- [ ] `src/consts.ts`: `SITE_TITLE = 'Ağ Günlüğü'`, Türkçe açıklama, yazar adı, GitHub/LinkedIn/e-posta; bilinmeyen alanlar `[DOLDUR]` — **Frontend**
+- [x] `src/consts.ts`: `SITE_TITLE = 'Ağ Günlüğü'`, Türkçe açıklama, yazar adı, GitHub/LinkedIn/e-posta; bilinmeyen alanlar `[DOLDUR]` — **Frontend**
 - [ ] `FormattedDate` tarihi `tr-TR` biçimine çevir — **Frontend**
 - [ ] Header: 4 maddeli Türkçe menü, aktif durum, mobilde sarma — **Frontend**
 - [ ] Footer: telif + gerçek sosyal linkler, şablon metinlerini kaldır — **Frontend**
