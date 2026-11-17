@@ -203,11 +203,11 @@ Bu, `src/pages/blog/` ve `src/pages/about.astro` dosyalarının taşınması dem
 **Aşama sonu çalışır olmalı:** Menüdeki her bağlantı gerçek bir sayfaya gider; hiçbir sayfada Lorem ipsum veya şablon metni yoktur; Hakkımda ve İletişim içerikleri yayınlanabilir durumdadır.
 
 ### Aşama 4 — Etiketler
-- [ ] `content.config.ts` şemasına isteğe bağlı `tags: string[]` ekle — **İçerik**
-- [ ] Yazı detayında ve listede etiket rozetleri — **Frontend**
-- [ ] `/etiket/[tag]` sayfası: `getStaticPaths` ile etiket yolları, aynı liste düzeni — **Frontend**
-- [ ] Türkçe karakterleri ASCII slug'a çeviren küçük yardımcı — **Frontend**
-- [ ] Etiketsiz yazılarda ve boş etiketlerde hatasız davranış — **Frontend**
+- [x] `content.config.ts` şemasına isteğe bağlı `tags: string[]` ekle — **İçerik**
+- [x] Yazı detayında ve listede etiket rozetleri — **Frontend**
+- [x] `/etiket/[tag]` sayfası: `getStaticPaths` ile etiket yolları, aynı liste düzeni — **Frontend**
+- [x] Türkçe karakterleri ASCII slug'a çeviren küçük yardımcı — **Frontend**
+- [x] Etiketsiz yazılarda ve boş etiketlerde hatasız davranış — **Frontend**
 
 **Aşama sonu çalışır olmalı:** Bir yazıya `tags: ["Ağ", "Protokoller"]` verildiğinde detay sayfasında rozetler görünür, `/etiket/ag` ve `/etiket/protokoller` yalnızca ilgili yazıları listeler, build tüm etiket sayfalarını üretir.
 
