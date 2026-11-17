@@ -1,0 +1,23 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { EMAIL, GITHUB_URL, LINKEDIN_URL } from '../consts';
+---
+
+<BaseLayout
+	title="İletişim"
+	description="Bana e-posta, GitHub veya LinkedIn üzerinden ulaşabilirsiniz."
+>
+	<h1>İletişim</h1>
+	<p>Bana aşağıdaki kanallardan ulaşabilirsiniz:</p>
+	<ul>
+		<li>
+			E-posta: <a href={`mailto:${EMAIL}`}>{EMAIL}</a>
+		</li>
+		<li>
+			GitHub: <a href={GITHUB_URL} target="_blank" rel="noopener noreferrer">erenbertugy</a>
+		</li>
+		<li>
+			LinkedIn: <a href={LINKEDIN_URL} target="_blank" rel="noopener noreferrer">LinkedIn profili</a>
+		</li>
+	</ul>
+</BaseLayout>

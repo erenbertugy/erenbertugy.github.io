@@ -175,9 +175,9 @@ Bu, `src/pages/blog/` ve `src/pages/about.astro` dosyalarının taşınması dem
 
 ### Aşama 1B — Kimlik, menü ve footer
 - [x] `src/consts.ts`: `SITE_TITLE = 'Ağ Günlüğü'`, Türkçe açıklama, yazar adı, GitHub/LinkedIn/e-posta; bilinmeyen alanlar `[DOLDUR]` — **Frontend**
-- [ ] `FormattedDate` tarihi `tr-TR` biçimine çevir — **Frontend**
-- [ ] Header: 4 maddeli Türkçe menü, aktif durum, mobilde sarma — **Frontend**
-- [ ] Footer: telif + gerçek sosyal linkler, şablon metinlerini kaldır — **Frontend**
+- [x] `FormattedDate` tarihi `tr-TR` biçimine çevir — **Frontend**
+- [x] Header: 4 maddeli Türkçe menü, aktif durum, mobilde sarma — **Frontend**
+- [x] Footer: telif + gerçek sosyal linkler, şablon metinlerini kaldır — **Frontend**
 
 **Aşama 1 sonu çalışır olmalı:** Dört sayfa açılır, menü doğru çalışır, şablonun İngilizce başlık/menü/footer metni kalmaz, `npm run build` hatasız biter.
 
@@ -196,7 +196,7 @@ Bu, `src/pages/blog/` ve `src/pages/about.astro` dosyalarının taşınması dem
 - [ ] Ana sayfa: kısa tanıtım + son 3 yazı + "Tüm yazılar" bağlantısı — **Frontend**
 - [ ] Yazılar listesi: tarih, başlık, açıklama, etiketler; boş durum metni — **Frontend**
 - [ ] Hakkımda sayfası: `BaseLayout` + prose; meslek, yaş, ilgi alanları, ne yazdığım — **İçerik** (metin) / **Frontend** (sayfa)
-- [ ] İletişim sayfası: mailto + GitHub + LinkedIn, kısa not — **Frontend**
+- [x] İletişim sayfası: mailto + GitHub + LinkedIn, kısa not — **Frontend**
 - [ ] Hero görsel politikası: gerçek görsel yoksa görsel alanı gösterilmez; `alt` zorunlu — **Frontend**
 - [ ] Projeler sayfası eklenmez, menüde yer almaz — **Frontend**
 
