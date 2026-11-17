@@ -195,10 +195,10 @@ Bu, `src/pages/blog/` ve `src/pages/about.astro` dosyalarının taşınması dem
 - [x] `pages/blog/` → `pages/yazilar/`, `about.astro` → `hakkimda.astro` taşı; iç linkler ve RSS yollarını güncelle — **Frontend**
 - [x] Ana sayfa: kısa tanıtım + son 3 yazı + "Tüm yazılar" bağlantısı — **Frontend**
 - [x] Yazılar listesi: tarih, başlık, açıklama, etiketler; boş durum metni — **Frontend**
-- [ ] Hakkımda sayfası: `BaseLayout` + prose; meslek, yaş, ilgi alanları, ne yazdığım — **İçerik** (metin) / **Frontend** (sayfa)
+- [x] Hakkımda sayfası: `BaseLayout` + prose; meslek, yaş, ilgi alanları, ne yazdığım — **İçerik** (metin) / **Frontend** (sayfa)
 - [x] İletişim sayfası: mailto + GitHub + LinkedIn, kısa not — **Frontend**
 - [ ] Hero görsel politikası: gerçek görsel yoksa görsel alanı gösterilmez; `alt` zorunlu — **Frontend**
-- [ ] Projeler sayfası eklenmez, menüde yer almaz — **Frontend**
+- [x] Projeler sayfası eklenmez, menüde yer almaz — **Frontend**
 
 **Aşama sonu çalışır olmalı:** Menüdeki her bağlantı gerçek bir sayfaya gider; hiçbir sayfada Lorem ipsum veya şablon metni yoktur; Hakkımda ve İletişim içerikleri yayınlanabilir durumdadır.
 
