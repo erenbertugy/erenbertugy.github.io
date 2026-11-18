@@ -39,7 +39,7 @@ UDP'de paket kaybolabilir, sıra değişebilir, aynı paket iki kez gelebilir. P
 
 Bu özellik kulağa kötü gelebilir. Ama her uygulama kayıp paketi dert etmez. Canlı bir görüntülü konuşmada eski bir paketin sonradan gelmesi işe yaramaz; o an konuşulan cümle çoktan geçmiştir. Bir oyunda eski bir konum bilgisinin sonradan gelmesi de oyuncuya yardımcı olmaz. Bu durumlarda hız, güvenilirlikten daha değerli.
 
-UDP'yi DNS, DHCP, NTP gibi altyapı protokollerinde sık görürsünüz. Sesli/görüntülü aramalar, canlı yayınlar ve çevrimiçi oyunlar da genelde UDP kullanır. QUIC de UDP üzerine kurulmuştur; HTTP/3 bu sayede TCP'nin bazı sınırlarından kurtulmayı hedefler. [DOĞRULA]
+UDP'yi DNS, DHCP, NTP gibi altyapı protokollerinde sık görürsünüz. Sesli/görüntülü aramalar, canlı yayınlar ve çevrimiçi oyunlar da genelde UDP kullanır. QUIC de UDP üzerine kurulmuştur; HTTP/3 bu sayede TCP'nin bazı sınırlarından kurtulmayı hedefler.
 
 ## Farkları
 
@@ -69,7 +69,7 @@ Her paketin bir başlığı vardır. TCP başlığı UDP başlığına göre dah
 
 ### Portlar ortak mı?
 
-TCP ve UDP aynı port numaralarını kullanabilir, çünkü port alanları ayrıdır. Örneğin 53 portu hem UDP hem TCP tarafında DNS için tanımlıdır. DNS çoğunlukla UDP ile çalışır; yanıt büyüdüğünde veya zone transfer gibi işlerde TCP devreye girer. [DOĞRULA]
+TCP ve UDP aynı port numaralarını kullanabilir, çünkü port alanları ayrıdır. Örneğin 53 portu hem UDP hem TCP tarafında DNS için tanımlıdır. DNS çoğunlukla UDP ile çalışır; yanıt büyüdüğünde veya zone transfer gibi işlerde TCP devreye girer.
 
 ## Hangi durumda hangisi?
 

@@ -216,8 +216,8 @@ Bu, `src/pages/blog/` ve `src/pages/about.astro` dosyalarının taşınması dem
 - [x] Yazıda uydurma istatistik/alıntı kullanma; gerekiyorsa kaynak bağlantısı ver — **İçerik**
 - [ ] Hakkımda metnini `docs/benim-bilgilerim.md` ile sınırlı tut; bilinmeyen ayrıntıyı yazma — **İçerik**
 - [x] Demo yazıları kaldır — **İçerik**
-- [ ] RSS akışını yeni yollar ve Türkçe bilgilerle doğrula — **Frontend**
-- [ ] Sitemap çıktısında tüm sayfaların olduğunu doğrula — **Frontend**
+- [x] RSS akışını yeni yollar ve Türkçe bilgilerle doğrula — **Frontend**
+- [x] Sitemap çıktısında tüm sayfaların olduğunu doğrula — **Frontend**
 - [x] `npm run build` çalıştır; başarılıysa placeholder görselleri sil (`src/assets/blog-placeholder-*.jpg`) — **Frontend**
   - Yalnızca referanssız görseller silindi (`-2`, `-3`, `-4`, `-5`, `-about`); `blog-placeholder-1.jpg` `BaseHead.astro` içinde yedek OG görseli olarak kullanıldığı için bırakıldı.
 - [x] Silme sonrası `npm run build` tekrar çalıştır — **Frontend**
