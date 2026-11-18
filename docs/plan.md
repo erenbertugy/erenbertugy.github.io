@@ -212,8 +212,8 @@ Bu, `src/pages/blog/` ve `src/pages/about.astro` dosyalarının taşınması dem
 **Aşama sonu çalışır olmalı:** Bir yazıya `tags: ["Ağ", "Protokoller"]` verildiğinde detay sayfasında rozetler görünür, `/etiket/ag` ve `/etiket/protokoller` yalnızca ilgili yazıları listeler, build tüm etiket sayfalarını üretir.
 
 ### Aşama 5 — İlk içerik ve temizlik
-- [ ] "TCP ve UDP: Farkları ne?" yazısını yaz: front matter (başlık, açıklama, `pubDate`, `tags`); `pubDate`, yazı hazır olduğunda belirlenir — **İçerik**
-- [ ] Yazıda uydurma istatistik/alıntı kullanma; gerekiyorsa kaynak bağlantısı ver — **İçerik**
+- [x] "TCP ve UDP: Farkları ne?" yazısını yaz: front matter (başlık, açıklama, `pubDate`, `tags`); `pubDate`, yazı hazır olduğunda belirlenir — **İçerik**
+- [x] Yazıda uydurma istatistik/alıntı kullanma; gerekiyorsa kaynak bağlantısı ver — **İçerik**
 - [ ] Hakkımda metnini `docs/benim-bilgilerim.md` ile sınırlı tut; bilinmeyen ayrıntıyı yazma — **İçerik**
 - [ ] Demo yazıları kaldır — **İçerik**
 - [ ] RSS akışını yeni yollar ve Türkçe bilgilerle doğrula — **Frontend**
