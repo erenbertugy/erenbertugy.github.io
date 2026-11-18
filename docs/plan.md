@@ -178,6 +178,7 @@ Bu, `src/pages/blog/` ve `src/pages/about.astro` dosyalarının taşınması dem
 - [x] `FormattedDate` tarihi `tr-TR` biçimine çevir — **Frontend**
 - [x] Header: 4 maddeli Türkçe menü, aktif durum, mobilde sarma — **Frontend**
 - [x] Footer: telif + gerçek sosyal linkler, şablon metinlerini kaldır — **Frontend**
+- [x] `SocialLinks.astro`: GitHub/LinkedIn/e-posta için satır içi SVG ikonlar; Footer ve İletişim'de kullan — **Frontend**
 
 **Aşama 1 sonu çalışır olmalı:** Dört sayfa açılır, menü doğru çalışır, şablonun İngilizce başlık/menü/footer metni kalmaz, `npm run build` hatasız biter.
 

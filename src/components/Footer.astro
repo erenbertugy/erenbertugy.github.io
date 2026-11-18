@@ -1,15 +1,14 @@
 ---
-import { EMAIL, GITHUB_URL, LINKEDIN_URL, SITE_AUTHOR } from '../consts';
+import SocialLinks from './SocialLinks.astro';
+import { SITE_AUTHOR } from '../consts';
 
 const today = new Date();
 ---
 
 <footer>
 	<p>&copy; {today.getFullYear()} {SITE_AUTHOR}. Tüm hakları saklıdır.</p>
-	<div class="social-links">
-		<a href={GITHUB_URL} target="_blank" rel="noopener noreferrer">GitHub</a>
-		<a href={LINKEDIN_URL} target="_blank" rel="noopener noreferrer">LinkedIn</a>
-		<a href={`mailto:${EMAIL}`}>E-posta</a>
+	<div class="footer-social">
+		<SocialLinks />
 	</div>
 </footer>
 <style>
@@ -22,19 +21,7 @@ const today = new Date();
 	footer p {
 		margin: 0;
 	}
-	.social-links {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		gap: 1em;
-		margin-top: 1em;
-	}
-	.social-links a {
-		color: rgb(var(--gray));
-		text-decoration: none;
-	}
-	.social-links a:hover {
-		color: rgb(var(--gray-dark));
-		text-decoration: underline;
+	.footer-social {
+		margin-top: var(--space-1);
 	}
 </style>
