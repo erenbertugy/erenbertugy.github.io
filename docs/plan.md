@@ -215,7 +215,7 @@ Bu, `src/pages/blog/` ve `src/pages/about.astro` dosyalarının taşınması dem
 - [x] "TCP ve UDP: Farkları ne?" yazısını yaz: front matter (başlık, açıklama, `pubDate`, `tags`); `pubDate`, yazı hazır olduğunda belirlenir — **İçerik**
 - [x] Yazıda uydurma istatistik/alıntı kullanma; gerekiyorsa kaynak bağlantısı ver — **İçerik**
 - [ ] Hakkımda metnini `docs/benim-bilgilerim.md` ile sınırlı tut; bilinmeyen ayrıntıyı yazma — **İçerik**
-- [ ] Demo yazıları kaldır — **İçerik**
+- [x] Demo yazıları kaldır — **İçerik**
 - [ ] RSS akışını yeni yollar ve Türkçe bilgilerle doğrula — **Frontend**
 - [ ] Sitemap çıktısında tüm sayfaların olduğunu doğrula — **Frontend**
 - [ ] `npm run build` çalıştır; başarılıysa placeholder görselleri sil (`src/assets/blog-placeholder-*.jpg`) — **Frontend**
