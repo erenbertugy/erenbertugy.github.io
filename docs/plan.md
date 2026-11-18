@@ -218,8 +218,9 @@ Bu, `src/pages/blog/` ve `src/pages/about.astro` dosyalarının taşınması dem
 - [x] Demo yazıları kaldır — **İçerik**
 - [ ] RSS akışını yeni yollar ve Türkçe bilgilerle doğrula — **Frontend**
 - [ ] Sitemap çıktısında tüm sayfaların olduğunu doğrula — **Frontend**
-- [ ] `npm run build` çalıştır; başarılıysa placeholder görselleri sil (`src/assets/blog-placeholder-*.jpg`) — **Frontend**
-- [ ] Silme sonrası `npm run build` tekrar çalıştır — **Frontend**
+- [x] `npm run build` çalıştır; başarılıysa placeholder görselleri sil (`src/assets/blog-placeholder-*.jpg`) — **Frontend**
+  - Yalnızca referanssız görseller silindi (`-2`, `-3`, `-4`, `-5`, `-about`); `blog-placeholder-1.jpg` `BaseHead.astro` içinde yedek OG görseli olarak kullanıldığı için bırakıldı.
+- [x] Silme sonrası `npm run build` tekrar çalıştır — **Frontend**
 
 **Aşama sonu çalışır olmalı:** Ana sayfada gerçek yazı görünür; yazı sayfası, etiketleri ve RSS kaydı doğru çalışır; demo içerik ve kullanılmayan placeholder görseller kalmamıştır; `npm run build` hatasız biter.
 
