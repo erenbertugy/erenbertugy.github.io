@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { EMAIL, GITHUB_URL, LINKEDIN_URL, SITE_TITLE } from '../consts';
+import SocialLinks from '../components/SocialLinks.astro';
+import { SITE_TITLE } from '../consts';
 ---
 
 <BaseLayout
@@ -11,19 +12,16 @@ import { EMAIL, GITHUB_URL, LINKEDIN_URL, SITE_TITLE } from '../consts';
 
 	<p>
 		Bir sorunuz, öneriniz ya da düzeltmek istediğiniz bir şey varsa bana yazabilirsiniz. En hızlı
-		yol e-posta.
+		yol e-posta. Aşağıdaki simgelerden birine dokunarak bana ulaşabilirsiniz.
 	</p>
 
-	<ul>
-		<li>
-			E-posta: <a href={`mailto:${EMAIL}`}>{EMAIL}</a>
-		</li>
-		<li>
-			GitHub: <a href={GITHUB_URL} target="_blank" rel="noopener noreferrer">GitHub profilim</a>
-		</li>
-		<li>
-			LinkedIn:
-			<a href={LINKEDIN_URL} target="_blank" rel="noopener noreferrer">LinkedIn profilim</a>
-		</li>
-	</ul>
+	<div class="contact-social">
+		<SocialLinks size="lg" />
+	</div>
 </BaseLayout>
+
+<style>
+	.contact-social {
+		margin-top: var(--space-3);
+	}
+</style>
